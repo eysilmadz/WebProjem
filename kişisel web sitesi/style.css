@@ -1,4 +1,6 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/*Anasayfa için CSS*/
+.anasayfaa{
     margin: 0;
     padding: 0;
 }
@@ -32,4 +34,151 @@
     text-decoration: none;
     font-size: 20px;
     padding: 6px 13px;
+}
+/*LOGIN SAYFASI İÇİN CSS*/
+.loginsayfa{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.bodyy{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    background: linear-gradient(to right,#dfa 0%, rgb(119, 194, 175) 100%);
+}
+.anaKısımLogin{
+    background: #fff;
+    max-width: 350px;
+    width: 100%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    position: relative;
+}
+.anaKısımLogin .logologin img{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 70%;
+    top: 5px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+}
+.anaKısımLogin form .titleLogo{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 10px 0;
+    position: relative;
+}
+.anaKısımLogin form .titleLogo::before{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 33px;
+    bottom: 2px;
+    left: 0;
+    border-radius: 5px;
+    background: rgb(9, 165, 170);
+}
+.anaKısımLogin form .girisKutusu{
+    width: 100%;
+    height: 45px;
+    margin-top: 25px;
+    position: relative;
+}
+.anaKısımLogin form .girisKutusu input{
+    height: 100%;
+    width: 100%;
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+.anaKısımLogin form .underLine::before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #ccc;
+    left: 0;
+    bottom: 0;
+}
+.anaKısımLogin form .underLine::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: red;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.3s ease;
+}
+.anaKısımLogin form .girisKutusu:focus ~ .underLine::after,
+.anaKısımLogin form .girisKutusu input:valid ~ .underLine::after{
+    transform: scaleX(1);
+    transform-origin: left;
+}
+.anaKısımLogin form .butongiris{
+    margin: 40px 0 20px 0;
+}
+.anaKısımLogin form .girisKutusu input[type="submit"]{
+    font-size: 17px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background: red;
+    transition: all 0.3s ease;
+}
+.anaKısımLogin form .girisKutusu input[type="submit"]:hover{
+    letter-spacing: 1px;
+    background: gray;
+    color: red;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.anaKısımLogin .yazi{
+    font-size: 14px;
+    align-items: center;
+}
+.anaKısımLogin .github a,
+.anaKısımLogin .linkedin a,
+.anaKısımLogin .anaSayfaLogin a{
+    display: block;
+    width: 100%;
+    height: 45px;
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 20px;
+    color: #fff;
+    line-height: 45px;
+    border-radius: 5px;
+}
+.anaKısımLogin .github a{
+    background-color: #24292e;
+    margin: 20px 0 15px 0;
+}
+.anaKısımLogin .github a:hover{
+    background-color: #6d7e8f;
+}
+.anaKısımLogin .linkedin a{
+    background-color: #0e76a8;
+    margin: 20px 0 15px 0;
+}
+.anaKısımLogin .linkedin a:hover{
+    background-color: #6d7e8f;
+}
+.anaKısımLogin .anaSayfaLogin a{
+    background-color: rgb(29, 94, 29);
+    margin: 20px 0 50px 0;
+}
+.anaKısımLogin .anaKısımLogin a:hover{
+    background-color: #6d7e8f;
+}
+.anaKısımLogin .github i,
+.anaKısımLogin .linkedin i,
+.anaKısımLogin .anaSayfaLogin i{
+    font-size: 22px;
+    padding-right: 22px;
 }
