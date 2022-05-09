@@ -182,3 +182,79 @@
     font-size: 22px;
     padding-right: 22px;
 }
+/*ÖZGEÇMİŞİM SAYFASI*/
+.ozgecmis{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,#dfa 0%, rgb(119, 194, 175) 100%);
+    height: 100vh;
+    background-size: 100% 100%;
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(22, 112, 214, 0.4);
+}
+header .logo{
+    display: inline-block;
+    font-size: 25px;
+    color: #495560;
+    margin-left: 50px;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+header .logo .fa-solid{
+        margin-right: 8px;
+        font-size: 25px;
+}
+header ul{
+    float: right;
+    margin-right: 20px;
+}
+header ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+header ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+    transition: .5s;
+}
+header ul li a:hover {
+    background: rgb(36, 144, 160);
+    border-radius: 2px;
+}
+header .fas{
+    margin-right: 8px;
+    font-size: 15px;
+}
+main article h2{
+    text-align: center;
+    color: #0e76a8;
+}
+main section h3{
+    color: black;
+    margin-left: 20px;
+    margin-top: auto;
+}
+main section p{
+    color: #24292e;
+    margin-left: 24px;
+}
+footer ul {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: #24292e;
+    position: fixed;
+    left: 0px;
+    bottom: 0;
+    width: 100%;
+    background-color: #dfa;
+    text-align: center;
+}
