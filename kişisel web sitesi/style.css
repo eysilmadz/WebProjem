@@ -302,7 +302,7 @@ footer ul {
 .iletisim{
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right,#dfa 0%, rgb(119, 194, 175) 100%);
+    background: #fff;
     height: 100vh;
     background-size: 100% 100%;
 }
@@ -316,7 +316,7 @@ footer ul {
     font-size: 25px;
     color: #495560;
     margin-left: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     font-family: sans-serif;
 }
 .iletisim .navbar  .logo .fa-solid{
@@ -350,23 +350,23 @@ footer ul {
     font-size: 15px;
 }
 .iletisim h3{
-    margin-top: 10px;
     text-align: center;
+    margin-top: 20px;
+    margin-left: 660px;
+    background: rgb(205, 207, 201);
+    color: rgb(100, 88, 88);
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
 }
-.row{
-    width: 50%;
-    height: 50%;
-}
-.row .col{
-    margin: 10px 8px 15px 8px;
-    font-size: 18px;
-    color: #24292e;
+.iletisimana{
+    background: #b6d8e8;
+    width: 900px;
+    height: 1110px;
+    margin: auto;
 }
 .form-check{
-    margin-left: 15px;
-}
-.kapsar{
-    font-family: sans-serif;
+    margin-left: 20px;
 }
 /*ŞEHRİM SAYFASI İÇİN CSS*/
 .sehrimSayfa{
