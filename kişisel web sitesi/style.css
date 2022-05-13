@@ -273,30 +273,95 @@ header .fas{
     margin-right: 8px;
     font-size: 15px;
 }
-main article h2{
-    text-align: center;
-    color: #0e76a8;
+main{
+    position: absolute;
+    left: 175px;
+    top: 50px;
 }
-main section h3{
-    color: black;
+aside{
+    position: absolute;
+    top: 80px;
+    background: #daeff9;
+    width: 400px;
+    height: 700px;
+}
+aside img{
+    margin-top: 35px;
+    margin-left: 100px;
+}
+.progress{
+    width: 60%;
+}
+.isimoz{
+    color: #3f4953;
+    margin-left: 140px;
+}
+.isimoz2{
+    color: #495560;
+    margin-left: 120px;
+}
+.ozbaslik{
+    margin-left: 150px;
+    color: #24292e;
+}
+.ozbaslik2{
+    margin-left: 75px;
+    color: #24292e;
+}
+.ozilet{
+    margin-left: 85px;
+    color: #3f4953;
+}
+section{
+    position: absolute;
+    background: rgb(242, 242, 242);
+    width: 800px;
+    height: 250px;
+    margin-left: 400px;
+    top: 80px;
+}
+section h3{
     margin-left: 20px;
-    margin-top: auto;
+    margin-top: 10px;
+    color: #3f4953;
 }
-main section p{
-    color: #24292e;
-    margin-left: 24px;
+.ozprof{
+    color: #6d7e8f;
+    margin-left: 30px;
+    margin-right: 30px;
 }
-footer ul {
-    text-decoration: none;
-    list-style: none;
-    display: inline-block;
-    color: #24292e;
-    position: fixed;
-    left: 0px;
-    bottom: 0;
+article h3{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #3f4953;
+}
+.ozbil{
+    color: #6d7e8f;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+article{
+    position: absolute;
+    background: rgb(239, 236, 236);
+    width: 800px;
+    height: 450px;
+    margin-left: 400px;
+    top: 330px;
+}
+footer{
+    background: rgb(22, 112, 214, 0.4);
+    position: absolute;
+    top: 875px;
     width: 100%;
-    background-color: #dfa;
-    text-align: center;
+    height: 70px;
+}
+footer a{
+    display: inline-block;
+    color: #3f4953;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-left: 700px;
+    margin-top: 25px;
 }
 /*İLETİŞİM SAYFASI*/
 .iletisim{
