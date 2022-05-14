@@ -7,38 +7,33 @@
     <title>LOGIN Sayfası</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<script src="lgn.js"></script>
+
 </head>
-<div class="bodyy">
 <body class="loginsayfa">
-    <div class="anaKısımLogin">
+    <div class="bodyy">
+        <div class="anaKısımLogin">
         <div class="logologin">
             <img src="logologin3.jpeg" alt="logo">
         </div>
-        <form action="login.php" method="POST">
+        <form action="http://localhost/loginn.php" method="POST" id="formm" name="formm" onsubmit="return formcntrl()" >
             <div class="titleLogo">Login</div>
             <div class="girisKutusu">
-                <input type="email" placeholder="E-mailinizi Giriniz" required>
+                <input type="email" name="yourMail" id="yourMail" placeholder="E-mailinizi Giriniz">
                 <div class="underLine"></div>
             </div>
             <div class="girisKutusu">
-                <input type="password" placeholder="Şifrenizi Giriniz" required>
+                <input type="password" name="sifre" id="sifre" placeholder="Şifrenizi Giriniz">
                 <div class="underLine"></div>
             </div>
             <div class="girisKutusu butongiris">
-                <input type="submit" value="Giriş Yap">
+                <input type="submit" value="Giriş Yap" name="login">
             </div>
         </form>
-        <div class="yazi">Giriş yapın veya bağlanın</div>
-        <div class="github">
-            <a href="iletisim.html"><i class="fas fa-phone"></i>İletişim</a> 
-        </div>
-        <div class="linkedin">
-            <a href="sehrim.html"><i class="fas fa-tree"></i>Şehrim</a>
-        </div>
-        <div class="anaSayfaLogin">
-            <a href="Hakkımda.html"><i class="fas fa-user"></i>Hakkımda</a>
-        </div>
     </div>
 </div>    
+<footer class="loginf">
+        <a href="iletisim.html">iletişim</a>
+</footer>
 </body>
 </html>

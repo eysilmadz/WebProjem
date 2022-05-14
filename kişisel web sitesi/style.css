@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-/*Anasayfa için CSS*/
+/*Hakkımda için CSS*/
 .anasayfaa{
     margin: 0;
     padding: 0;
-    background: #dfa;
+    background: #fff;
 }
 .anaKısım .navbar{
     width: 100%;
@@ -74,6 +74,38 @@
     margin: 10px 20px 200px 50px;
     float: left;
 }
+.anasayfaa hr{
+    width: 50%;
+    margin-left: 200px;
+    color: #0e76a8;
+}
+.yaptiklarim h4{
+    color: #495560;
+    margin-left: 400px;
+}
+.okuduklarim h4{
+    color: #495560;
+    margin-left: 325px;
+}
+.yaptiklarim{
+    height: 200px;
+    position: absolute;
+    top: 700px;
+    left: 300px;
+}
+.okuduklarim{
+    height: 200px;
+    position: absolute;
+    top: 1050px;
+    left: 300px;
+}
+.hakkımdaf{
+    background: rgb(22, 112, 214, 0.4);
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 1400px;
+}
 /*LOGIN SAYFASI İÇİN CSS*/
 .loginsayfa{
     margin: 0;
@@ -85,11 +117,11 @@
     display: grid;
     height: 100vh;
     place-items: center;
-    background: linear-gradient(to right,#dfa 0%, rgb(119, 194, 175) 100%);
+    background: #fff;
 }
 
 .anaKısımLogin{
-    background: #fff;
+    background: #cbe9f7;
     max-width: 350px;
     width: 100%;
     padding: 25px 30px;
@@ -133,6 +165,7 @@
     font-size: 15px;
     outline: none;
     border: none;
+    background-color: #cbe9f7;
 }
 .anaKısımLogin form .underLine::before{
     position: absolute;
@@ -222,11 +255,18 @@
     font-size: 22px;
     padding-right: 22px;
 }
+.loginf{
+    background: rgb(22, 112, 214, 0.4);
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 700px;
+}
 /*ÖZGEÇMİŞİM SAYFASI*/
 .ozgecmis{
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right,#dfa 0%, rgb(119, 194, 175) 100%);
+    background: #fff;
     height: 100vh;
     background-size: 100% 100%;
 }
@@ -433,11 +473,13 @@ footer a{
 .form-check{
     margin-left: 20px;
 }
+
+
 /*ŞEHRİM SAYFASI İÇİN CSS*/
 .sehrimSayfa{
     margin: 0;
     padding: 0;
-    background: #dfa;
+    background: #fff;
     height: 100vh;
     background-size: 100% 100%;
     display: grid;
@@ -446,7 +488,7 @@ footer a{
 .Bolu{
     display: grid;
     height: 100vh;
-    background: rgb(234, 240, 226);
+    background: #edeff0;
     width: 40%;
     height: 580px;
     border-radius: 10px;
@@ -479,7 +521,7 @@ footer a{
 .Gerede{
     display: grid;
     height: 100vh;
-    background: rgb(234, 240, 226);
+    background: #edeff0;
     width: 40%;
     height: 580px;
     border-radius: 10px;
@@ -555,3 +597,245 @@ footer a{
     background: rgb(14, 135, 153);
     border-radius: 2px;
 }
+.sehrimf{
+    position: absolute;
+    top: 1900px;
+}
+/*MİRASIMIZ SAYFAM İÇİN CSS*/
+.miras{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    height: 100vh;
+    background-size: 100% 100%;
+    display: grid;
+}
+.miras .navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(22, 112, 214, 0.4);
+}
+.miras .navbar .logo{
+    display: inline-block;
+    font-size: 25px;
+    color: #495560;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.miras .navbar  .logo .fa-solid{
+        margin-right: 8px;
+        font-size: 25px;
+}
+.miras .navbar  ul{
+    float: right;
+    margin-right: 20px;
+}
+.miras .navbar  ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+.miras .navbar  ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+    transition: .5s;
+}
+.miras .navbar  ul li a:hover {
+    background: rgb(36, 144, 160);
+    border-radius: 2px;
+}
+.miras .navbar  .fas{
+    margin-right: 8px;
+    font-size: 15px;
+}
+.yedigolbas{
+    position: absolute;
+    top: 100px;
+    left: 680px;
+    color: rgb(87, 124, 24);
+}
+.res1{
+    position: absolute;
+    left: 100px;
+    top: 180px;
+}
+.res2{
+    position: absolute;
+    left: 565px;
+    top: 250px;
+}
+.res3{
+    position: absolute;
+    left: 1030px;
+    top: 180px;
+}
+.res4{
+    position: absolute;
+    left: 100px;
+    top: 1300px;
+}
+.res5{
+    position: absolute;
+    left: 565px;
+    top: 1370px;
+}
+.res6{
+    position: absolute;
+    left: 1030px;
+    top: 1300px;
+}
+.bilgiyg{
+    width: 350px;
+    height: 530px;
+    position: absolute;
+    top: 670px;
+    left: 100px;
+    background: #edeff0;
+    border-radius: 5px;
+}
+.bilgiyg2{
+    width: 350px;
+    height: 530px;
+    position: absolute;
+    top: 670px;
+    left: 1100px;
+    background: #edeff0;
+    border-radius: 5px;
+}
+.bilgiyg3{
+    width: 350px;
+    height: 530px;
+    position: absolute;
+    top: 600px;
+    left: 600px;
+    background: #edeff0;
+    border-radius: 5px;
+}
+.haritayg{
+    position: absolute;
+    top: 1720px;
+    left: 480px;
+}
+.haritayg h4{
+    text-align: center;
+    color: #495560;
+}
+.miras h5{
+    text-align: center;
+    margin-top: 10px;
+    color: #495560;
+}
+.bilgiyg p,
+.bilgiyg2 p,
+.bilgiyg3 p{
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #6d7e8f;
+}
+.res1 img, .res2 img, .res3 img, .res4 img, .res5 img, .res6 img, .haritayg iframe{
+    border-radius: 5px;
+}
+.mirasf{
+    position: absolute;
+    top: 2300px;
+}
+/*İLGİ ALANLARIM*/
+.ilgialan{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    height: 100vh;
+    background-size: 100% 100%;
+    display: grid;
+}
+.ilgialan .navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(22, 112, 214, 0.4);
+}
+.ilgialan .navbar .logo{
+    display: inline-block;
+    font-size: 25px;
+    color: #495560;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.ilgialan .navbar  .logo .fa-solid{
+        margin-right: 8px;
+        font-size: 25px;
+}
+.ilgialan .navbar  ul{
+    float: right;
+    margin-right: 20px;
+}
+.ilgialan .navbar  ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+.ilgialan .navbar  ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: Roboto;
+    transition: .5s;
+}
+.ilgialan .navbar  ul li a:hover {
+    background: rgb(36, 144, 160);
+    border-radius: 2px;
+}
+.ilgialan .navbar  .fas{
+    margin-right: 8px;
+    font-size: 15px;
+}
+.movieimg{
+    position: absolute;
+    top: 120px;
+    left: 600px;
+}
+.moviebilgi{
+    background: rgb(218, 207, 188);
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    left: 510px;
+    top: 560px;
+    border-radius: 10px;
+}
+.moviebilgi .moviebaslik{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+    color: brown;
+}
+.moviebilgi .movieimdb, .moviebilgi .movieyazar, .moviebilgi .moviekonu, .moviebilgi .movieaktorler, .moviebilgi .movieoduller{
+    font-size: 15px;
+    text-align: center;
+}
+.moviebilgi p{
+    color: rgb(132, 88, 88);
+}
+.ilgialanf{
+    position: absolute;
+    top: 950px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
