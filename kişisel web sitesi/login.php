@@ -11,7 +11,7 @@ $_SESSION["login"] = "true";
 $_SESSION["yourMail"] = "b211210081@sakarya.edu.tr";
 $_SESSION["sifre"] = "211210081";
 echo "Hosgeldiniz b211210081. Başarıyla giriş yaptınız. Hakkında sayfasına yonlendiriliyorsunuz. Lütfen bekleyin..";								
-header("Refresh:2; url=http://webProje/Hakkimda.html");
+header("Refresh:2; url=index.html");
 }
 elseif(($_POST["yourMail"]=="") && ($_POST["sifre"]==""))
 {

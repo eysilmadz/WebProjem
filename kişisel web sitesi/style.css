@@ -469,6 +469,7 @@ footer a{
     width: 900px;
     height: 1110px;
     margin: auto;
+    
 }
 .form-check{
     margin-left: 20px;
@@ -826,6 +827,428 @@ footer a{
 .ilgialanf{
     position: absolute;
     top: 950px;
+}
+/*RESPONSİVE*/
+@media screen and (max-width:700px) {
+    .iletisim{
+        margin: 0;
+        padding: 0;
+        background: #fff;
+        height: 100vh;
+        background-size: 100% 100%;
+    }
+    .iletisim .navbar{
+        width: 192%;
+        height: 80px;
+        background-color: rgb(22, 112, 214, 0.4);
+    }
+    .iletisim .navbar .logo{
+        display: inline-block;
+        font-size: 15px;
+        color: #495560;
+        position: absolute;
+        top: 10px;
+        font-family: sans-serif;
+    }
+    .iletisim .navbar  .logo .fa-solid{
+            margin-right: 8px;
+            font-size: 20px;
+    }
+    .iletisim .navbar  ul{
+        float: right;
+        width:100%;
+        margin-right: 2px;
+        
+    }
+    .iletisim .navbar  ul li{
+        list-style: none;
+        display: inline-block;
+        margin: 0 8px;
+        line-height: 80px;
+    }
+    .iletisim .navbar  ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        padding: 6px 13px;
+        font-family: Roboto;
+        transition: .5s;
+    }
+    .iletisim .navbar  ul li a:hover {
+        background: rgb(36, 144, 160);
+        border-radius: 2px;
+    }
+    .iletisim .navbar  .fas{
+        margin-right: 8px;
+        font-size: 15px;
+    }
+    .iletisim h3{
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 660px;
+        background: rgb(205, 207, 201);
+        color: rgb(100, 88, 88);
+        width: 200px;
+        height: 40px;
+        border-radius: 15px;
+    }
+    .iletisimana{
+        background: #b6d8e8;
+        width: 900px;
+        height: 1110px;
+        margin: auto;
+    }
+    .form-check{
+        margin-left: 20px;
+    }
+    /*hakkımda*/
+    .anaKısım .navbar{
+        width: 100%;
+        height: 80px;
+        background-color: rgb(22, 112, 214, 0.4);
+    }
+    .navbar .logo{
+        display: inline-block;
+        font-size: 10px;
+        color: #495560;
+        position: absolute;
+        top: 10px;
+        font-family: sans-serif;
+    }
+    .navbar .logo .fa-solid{
+        margin-right: 8px;
+        font-size: 10px;
+    }
+    .navbar ul{
+        float: right;
+        margin-right: 20px;
+    }
+    .navbar ul li{
+        list-style: none;
+        display: inline-block;
+        line-height: 80px;
+    }
+    .navbar ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 6px;
+        padding: 0px 0px;
+        font-family: Roboto;
+        transition: .5s;
+    }
+    .navbar .fas{
+        margin-right: 8px;
+        font-size: 15px;
+    }
+    .hakkımda{
+        background: rgb(234, 233, 233);
+        width: 450px;
+        height: 220px;
+        border-radius: 30px;
+        position: absolute;
+        top: 80px;
+        right: -67px;
+    }
+    .hakkımda h3{
+        color: rgb(87, 21, 21);
+        background: #ccc;
+        border-radius: 10px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .hakkımda p{
+        color: #495560;
+        text-align: center;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .grid .g-col-6{
+        margin: 270px 0px 0px 80px;
+    }
+    .anasayfaa hr{
+        width: 50%;
+        position: absolute;
+        top: -30px;
+        left: -150px;
+        color: #0e76a8;
+    }
+    .yaptiklarim h4{
+        color: #495560;
+        position: absolute;
+        left: -290px;
+        top: -40px;
+    }
+    .okuduklarim h4{
+        color: #495560;
+        margin-left: 30px;
+        margin-top: -280px;
+    }
+    .yaptiklarim{
+        height: 200px;
+        position: absolute;
+        top: 2100px;
+        left: 60px;
+    }
+    .okuduklarim{
+        height: 200px;
+        position: absolute;
+        top: 3120px;
+        left: 50px;
+    }
+    .hakkımdaf{
+        background: rgb(22, 112, 214, 0.4);
+        width: 100%;
+        height: 70px;
+        position: absolute;
+        top: 3800px;
+    }
+    .hakkımdaf a{
+        position: absolute;
+        top: 0px;
+        left: -490px;
+    }
+    /*İLGİ ALANLARIM*/
+    .ilgialan{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    height: 100vh;
+    background-size: 100% 100%;
+    display: grid;
+}
+.ilgialan .navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(22, 112, 214, 0.4);
+}
+.ilgialan .navbar .logo{
+    display: inline-block;
+    font-size: 10px;
+    color: #495560;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.ilgialan .navbar  .logo .fa-solid{
+        margin-right: 8px;
+        font-size: 10px;
+}
+.ilgialan .navbar  ul{
+    margin: auto;
+    
+}
+.ilgialan .navbar  ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 0px;
+    line-height: 80px;
+}
+.ilgialan .navbar  ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 8px;
+    padding: 6px 13px;
+    font-family: Roboto;
+    transition: .5s;
+}
+.ilgialan .navbar  ul li a:hover {
+    background: rgb(36, 144, 160);
+    border-radius: 2px;
+}
+.ilgialan .navbar  .fas{
+    font-size: 10px;
+}
+.movieimg{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+}
+.moviebilgi{
+    background: rgb(218, 207, 188);
+    width: 420px;
+    height: 350px;
+    position: absolute;
+    left: 15px;
+    top: 560px;
+    border-radius: 10px;
+}
+.moviebilgi .moviebaslik{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+    color: brown;
+}
+.moviebilgi .movieimdb, .moviebilgi .movieyazar, .moviebilgi .moviekonu, .moviebilgi .movieaktorler, .moviebilgi .movieoduller{
+    font-size: 15px;
+    text-align: center;
+}
+.moviebilgi p{
+    color: rgb(132, 88, 88);
+}
+.ilgialanf{
+    position: absolute;
+    top: 950px;
+}
+.ilgialanf a{
+    position: absolute;
+    left: -500px;
+}
+.anaKısımLogin{
+    background: #cbe9f7;
+    max-width: 350px;
+    width: 50%;
+    padding: 25px 30px;
+    border-radius: 5px;
+    position: relative;
+}
+.anaKısımLogin .logologin img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 70%;
+    top: 5px;
+    border-radius: 50%;
+    border: 5px solid transparent;
+}
+.loginf{
+    background: rgb(22, 112, 214, 0.4);
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 700px;
+}
+.loginf a{
+    position: absolute;
+    left: -500px;
+}
+/*miras*/
+.miras{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    height: 100vh;
+    background-size: 100% 100%;
+    display: grid;
+}
+.miras .navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(22, 112, 214, 0.4);
+}
+.miras .navbar .logo{
+    display: inline-block;
+    font-size: 10px;
+    color: #495560;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.miras .navbar  .logo .fa-solid{
+        margin-right: 8px;
+        font-size: 10px;
+}
+.miras .navbar  ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 0px;
+    line-height: 80px;
+}
+.miras .navbar  ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 8px;
+    padding: 2px;
+    font-family: Roboto;
+    transition: .5s;
+}
+.miras .navbar  .fas{
+    margin-right: 8px;
+    font-size: 8px;
+}
+.yedigolbas{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    color: rgb(87, 124, 24);
+}
+.res1{
+    position: absolute;
+    left: 5px;
+    top: 180px;
+}
+.res2{
+    position: absolute;
+    left: 5px;
+    top: 450px;
+}
+.res3{
+    position: absolute;
+    left: 5px;
+    top: 720px;
+}
+.res4{
+    position: absolute;
+    left: 5px;
+    top: 990px;
+}
+.res5{
+    position: absolute;
+    left: 5px;
+    top: 1260px;
+}
+.res6{
+    position: absolute;
+    left: 5px;
+    top: 1530px;
+}
+.bilgiyg{
+    width: 350px;
+    height: 530px;
+    position: absolute;
+    top: 1800px;
+    left: 30px;
+    background: #edeff0;
+    border-radius: 5px;
+}
+.bilgiyg2{
+    width: 350px;
+    height: 530px;
+    position: absolute;
+    top: 2400px;
+    left: 30px;
+    background: #edeff0;
+    border-radius: 5px;
+}
+.bilgiyg3{
+    width: 350px;
+    height: 530px;
+    position: absolute;
+    top: 3000px;
+    left: 30px;
+    background: #edeff0;
+    border-radius: 5px;
+}
+.haritayg{
+    position: absolute;
+    top: 3600px;
+    left: 5px;
+}
+.haritayg h4{
+    position: absolute;
+    top: -30px;
+    left: 150px;
+    color: #495560;
+}
+.mirasf{
+    position: absolute;
+    top: 4100px;
+}
+.mirasf a{
+    position: absolute;
+    left: -530px;
+
+}
 }
 
 

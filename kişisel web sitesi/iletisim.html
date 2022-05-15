@@ -16,7 +16,7 @@
             <i class="fa-solid fa-computer"></i>ESMA YILDIZ
         </div>
         <ul>
-          <li><a href="Hakkimda.html"><i class="fas fa-user"></i>Hakkımızda</a></li>
+          <li><a href="index.html"><i class="fas fa-user"></i>Hakkımızda</a></li>
           <li><a href="ozgecmis.html"><i class="fas fa-edit"></i>Özgeçmiş</a></li>
           <li><a href="sehrim.html"><i class="fas fa-tree"></i>Şehrim</a></li>
           <li><a href="mirasımız.html"><i class="fas fa-leaf"></i>Mirasımız</a></li>
@@ -25,7 +25,7 @@
           <li><a href="login.html"><i class="fas fa-right-to-bracket"></i>Login</a></li>
       </ul>
     </div>
-    <form class="iletisimjs" id="iletisimm" name="iletisimm" onsubmit="return iletisimcntrl()">
+    <form class="iletisimjs" id="iletisimm" name="iletisimm" onsubmit="return iletisimcntrl()" action="iletisim.php" method="POST">
     <div class="baslık"><h3>İLETİŞİM</h3></div>
     <div class="iletisimana">
       <div class="iletisimic">
@@ -36,13 +36,13 @@
     </div>
       <div class="soru p-4 w-75">Cinsiyetinizi seçiniz:</div>
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+      <input class="form-check-input" type="radio" name="cinsiyet" id="flexRadioDefault1" checked>
       <label class="form-check-label w-75" for="flexRadioDefault1">
         Kadın
       </label>
       </div>
     <div class="form-check">
-      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+      <input class="form-check-input" type="radio" name="cinsiyet" id="flexRadioDefault2">
       <label class="form-check-label w-75" for="flexRadioDefault2">
         Erkek
       </label>
@@ -67,25 +67,7 @@
         </div>
       </div>
     </div>
-    <div class="soru p-4 w-75">Ne tür klüplere katıldınız:</div>
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-      <label class="form-check-label" for="flexCheckDefault">
-        bölümünüzle ilgili
-      </label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-      <label class="form-check-label" for="flexCheckDefault">
-        sporla ilgili
-      </label>
-    </div>
-    <div class="form-check">
-      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked">
-      <label class="form-check-label" for="flexCheckChecked">
-        sanatla ilgili
-      </label>
-    </div>
+    
     <div class="soru p-4 w-75">İletişime geçmek istediğiniz konu:</div>
     <div class="selekt p-4">
     <select class="form-select w-75" aria-label="Default select example" id="konu" name="konu">
@@ -98,7 +80,7 @@
   </div>
   <div class="soru p-4 w-75">Konuyla ilgili bir dosya yüklemek isterseniz:</div>
     <div class="input-group mb-3 p-4 w-75">
-      <input type="file" class="form-control w-75" id="inputGroupFile02">
+      <input type="file" class="form-control w-75" id="inputGroupFile02" name="dosya">
     </div>
   <div class="soru p-4 w-75">Konuyla ilgili yorumunuzu belirtiniz:</div>
     <div class="form-floating p-4 w-75">
